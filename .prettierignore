@@ -1,0 +1,6 @@
+.husky
+coverage
+dist
+patches
+reports
+tsconfig.lint.json
