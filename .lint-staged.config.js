@@ -27,7 +27,6 @@ const generateTSConfig = (stagedFilenames) => {
 
 module.exports = {
   "*.css": ["prettier --write", "stylelint"],
-  //"*.scss": ["prettier --write", "stylelint"],
   "*.{json,md,yml}": "prettier --write",
   "*/*.js": [
     "prettier --write",
