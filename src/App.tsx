@@ -9,7 +9,5 @@ export const App: FC = () => {
         <div className={styles.container}>
             <Outlet/>
         </div>
-
-
     )
 }
